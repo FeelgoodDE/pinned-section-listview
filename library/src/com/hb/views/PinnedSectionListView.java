@@ -184,7 +184,7 @@ public class PinnedSectionListView extends ListView {
     }
 
 	/** Create shadow wrapper with a pinned view for a view at given position */
-	void createPinnedShadow(int position) {
+	protected void createPinnedShadow(int position) {
 
 		// try to recycle shadow
 		PinnedSection pinnedShadow = mRecycleSection;
